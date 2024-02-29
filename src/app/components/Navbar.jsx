@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-neutral-200`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
         href='/' 
@@ -23,7 +23,7 @@ const Navbar = () => {
         }}
         >
            <Image src={logo} alt='logo' width={15} height={15} className='w-9 h-9 object-contain' />
-           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+           <p className='text-[#344760] text-[18px] font-bold cursor-pointer flex '>
             Web3Women Summit  &nbsp;
             <span className='sm:block hidden'> 2024</span>
           </p>
@@ -33,8 +33,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-white" : "text-[#344760]"
+              } hover:text-[#799AC3] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <p>{nav.title}</p>
@@ -59,7 +59,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className='list-none flex justify-end items-end flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
@@ -74,6 +74,7 @@ const Navbar = () => {
                   <p>{nav.title}</p>
                 </li>
               ))}
+              <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
             </ul>
           </div>
         </div>
