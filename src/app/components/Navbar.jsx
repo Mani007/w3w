@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import {styles} from '../utils/styles'
 import {navLinks} from'../constants'
-import {logo,menu,close} from '../assets'
+import {logo,menu,close, w3w} from '../assets'
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false);
@@ -22,10 +22,10 @@ const Navbar = () => {
           window.scrollTo(0,0)
         }}
         >
-           <Image src={logo} alt='logo' width={9} height={9} className='w-9 h-9 object-contain' />
+           <Image src={logo} alt='logo' width={15} height={15} className='w-9 h-9 object-contain' />
            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Web3Women  &nbsp;
-            <span className='sm:block hidden'> Summit2024</span>
+            Web3Women Summit  &nbsp;
+            <span className='sm:block hidden'> 2024</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

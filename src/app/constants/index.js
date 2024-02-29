@@ -1,5 +1,7 @@
 import {
-    logo    
+    logo, 
+    menu,
+    close,    
   } from "../assets";
 
 export const navLinks = [
