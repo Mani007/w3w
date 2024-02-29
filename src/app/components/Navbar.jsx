@@ -40,7 +40,9 @@ const Navbar = () => {
               <p>{nav.title}</p>
             </li>
           ))}
+           <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
         </ul>
+       
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <Image
