@@ -22,10 +22,11 @@ const Navbar = () => {
           window.scrollTo(0,0)
         }}
         >
-           <Image src={w3w} alt='logo' width={25} height={15} className='h-12 w-16 object-contain' />
-           <p className='text-[#344760] text-[16px] font-bold object-contain cursor-pointer flex '>
-          Web3  <br /> Women Summit 
-          </p>
+           <Image src={w3w} alt='logo' size={20} className='h-16 w-12 object-contain' />
+           <p className='text-[#344760] text-[14px] font-bold cursor-pointer flex '>
+            Web3 <br /> Women Summit <br /> 2024 &nbsp;
+           </p>
+         
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
@@ -73,7 +74,7 @@ const Navbar = () => {
                   <p>{nav.title}</p>
                 </li>
               ))}
-              <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
+              {/* <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button> */}
             </ul>
           </div>
         </div>
