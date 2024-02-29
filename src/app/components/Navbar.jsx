@@ -22,7 +22,7 @@ const Navbar = () => {
           window.scrollTo(0,0)
         }}
         >
-           <Image src={logo} alt='logo' width={15} height={15} className='w-9 h-9 object-contain' />
+           <Image src={w3w} alt='logo' width={25} height={15} className='h-10 w-16 object-contain' />
            <p className='text-[#344760] text-[18px] font-bold cursor-pointer flex '>
             Web3Women Summit  &nbsp;
             <span className='sm:block hidden'> 2024</span>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient bg-[#F2F5EC] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-end flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (

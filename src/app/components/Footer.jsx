@@ -4,17 +4,17 @@ function Footer() {
   return (
     <>
     <footer
-  class="absolute inset-x-0 bottom-0 bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
-     <div class=" flex justify-center">
+  className="absolute inset-x-0 bottom-0 bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
+     <div className=" flex justify-center">
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -25,12 +25,12 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -41,12 +41,12 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -59,12 +59,12 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -75,12 +75,12 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -91,12 +91,12 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -104,7 +104,7 @@ function Footer() {
         </svg>
       </a>
     </div>
-  <div class="p-2 text-center text-neutral-700 dark:text-neutral-200">
+  <div className="p-2 text-center text-neutral-700 dark:text-neutral-200">
     © 2024 Web3Women Summit24.
    All rights reserved.
     

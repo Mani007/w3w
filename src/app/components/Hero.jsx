@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { w3w, banner} from '../assets'
+import {banner, w3w} from '../assets'
 function Hero() {
   return (
     <>
-    <section className="text-gray-600 body-font">
-  <div className="container relative mt-4 mx-auto flex px-5 py-5 items-center justify-center flex-col">
+    <section className="mt-20 text-gray-600 bg-[#344760] body-font">
+  <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
     {/* <Image
       src="/images/opscraftherosection.png"
@@ -16,19 +16,20 @@ function Hero() {
     /> */}
     <Image
       src={banner}
-      width={1440}
-      height={1070}
+      sizes='100vw'
       alt="Picture of the author"
     />
-    <div className="text-center absolute mt-4  w-full">
-      <h1 className="title-font sm:text-3xl  text-3xl md:text-6xl mb-4 font-medium text-gray-900">Enhancing <br /> 20+ different <span className='text-[#00df9a]'>Industries</span></h1>
-      
-      <div className="flex justify-center">
+   
+  <div className=" relative lg:w-2/3 w-full">
+        <div className="flex justify-items-start">
         <Link href='/'>
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-[#7FFFD4] rounded text-lg">Know More</button>
+        <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#C9B46D]  hover:bg-[#8EB5DF] rounded text-lg">Be a sponsor </button>&nbsp;
+        </Link>
+        <Link href='/'>
+        <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#98B4AC]  hover:bg-[#8EB5DF] rounded text-lg">Register</button>
         </Link>
       </div>
-    </div>
+    </div> 
   </div>
 </section>
     </>
