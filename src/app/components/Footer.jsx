@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     <footer
-  className="absolute inset-x-0 bottom-0 bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
+  className="relative inset-x-0 bottom-0 bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
      <div className=" flex justify-center">
       <a
         href="#!"
