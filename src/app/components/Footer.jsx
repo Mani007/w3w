@@ -9,7 +9,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -25,7 +25,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -41,7 +41,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -59,7 +59,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -75,7 +75,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -91,7 +91,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
@@ -105,7 +105,7 @@ function Footer() {
       </a>
     </div>
   <div class="p-2 text-center text-neutral-700 dark:text-neutral-200">
-    © 2024 Copyright:
+    © 2024 Web3Women Summit24.
    All rights reserved.
     
   </div>
