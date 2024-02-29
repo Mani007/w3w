@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import {styles} from '../utils/styles'
 import {navLinks} from'../constants'
-import {logo,menu} from '../assets'
+import {logo,menu,close} from '../assets'
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
-        to='/' 
+        href='/' 
         className='flex items-center gap-2' 
         onClick={() =>{
           setActive('')
@@ -37,7 +37,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <Link href={`#${nav.id}`}>{nav.title}</Link>
+              <p>{nav.title}</p>
             </li>
           ))}
         </ul>
@@ -69,7 +69,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <Link href={`#${nav.id}`}>{nav.title}</Link>
+                  <p>{nav.title}</p>
                 </li>
               ))}
             </ul>
