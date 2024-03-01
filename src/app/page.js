@@ -7,6 +7,7 @@ import ShiftingCountdown from "./components/Shiftingcountdown";
 import TiltCard from "./components/TiltCard";
 import VerticalAccordion from "./components/VerticalAccordion";
 import Speakers from "./components/Speakers";
+import Afterparty from "./components/Afterparty";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <VerticalAccordion/>
       {/* <TiltCard/> */}
       <Speakers/>
+      <Afterparty/>
       <Footer/>
   </>
   );
