@@ -1,7 +1,8 @@
 import {
     logo, 
     menu,
-    close,    
+    close, 
+    dogtest,    
   } from "../assets";
 
 export const navLinks = [
@@ -69,3 +70,86 @@ export const navLinks = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius deserunt quia consectetur aliquid obcaecati voluptatibus quos distinctio natus! Tenetur.",
     },
   ];
+
+  export const speakers = [
+    {
+      id: 1,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 2,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 3,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 4,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 5,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 6,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 7,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 8,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 9,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 10,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+  ]; 

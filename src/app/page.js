@@ -6,6 +6,7 @@ import Countdown from "./components/Countdown";
 import ShiftingCountdown from "./components/Shiftingcountdown";
 import TiltCard from "./components/TiltCard";
 import VerticalAccordion from "./components/VerticalAccordion";
+import Speakers from "./components/Speakers";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ShiftingCountdown/>
       <VerticalAccordion/>
       <TiltCard/>
+      <Speakers/>
       <Footer/>
   </>
   );
