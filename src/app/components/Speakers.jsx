@@ -3,29 +3,36 @@ import React from 'react'
 import {speakers,} from '../constants'
 import Image from 'next/image'
 import dog from '../assets/dogtest.jpg'
+import TiltCard from './TiltCard'
 function Speakers() {
   return (
     <>
-    <div className='container mx-auto py-36 px-8'>
+    <div className='w-full text-center bg-[#5E95A2]'>
+        <p className='py-8 text-white text-4xl font-bold'>Our Speakers</p>
+    <div className='container  mx-auto py-12 px-8'>
         <div className=' grid lg:grid-cols-4 gap-4'>
             {speakers.map((speaker,index) =>
             (
             
-             <div className='shadow-sm rounded-sm text-center' key={speaker.id}>
-                <Image
-                src={speaker.imgSrc}
-                className='rounded-t-lg'  
-                style={{ "width": "100%"}}
-                alt={speaker.name}
-                height={150}
-                width={250}   
+            //  <div className='shadow-lg rounded-lg bg-[#98B4AC] text-white  text-center' key={speaker.id}>
+            //     <Image
+            //     src={speaker.imgSrc}
+            //     className='rounded-t-lg'  
+            //     style={{ "width": "100%"}}
+            //     alt={speaker.name}
+            //     height={150}
+            //     width={250}   
                     
-                      />
-                <p>{speaker.name}</p> 
-                <p>{speaker.jobtitle}</p>
-                <p>{speaker.company}</p> 
-                 <p>{speaker.social}</p>
-             </div>   
+            //           />
+            //     <p>{speaker.name}</p> 
+            //     <p>{speaker.jobtitle}</p>
+            //     <p>{speaker.company}</p> 
+            //      <p>{speaker.social}</p>
+            //  </div>
+            <div key={index}> 
+            
+            <TiltCard  id={speaker.id} imgSrc={speaker.imgSrc} name={speaker.name}  jobtitle={speaker.jobtitle} company={speaker.company} social={speaker.social} />
+            </div>   
             ) 
             )
             
@@ -33,6 +40,7 @@ function Speakers() {
         </div>
         
 
+    </div>
     </div>
     </>
   )

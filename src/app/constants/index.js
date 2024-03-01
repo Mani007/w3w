@@ -152,4 +152,20 @@ export const navLinks = [
       jobtitle: "Job Title",
       social: "social media link"
     },
+    {
+      id: 11,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
+    {
+      id: 12,
+      name: "<NAME>",
+      imgSrc:"/speakers/dogtest.jpg",
+      company: "My company",
+      jobtitle: "Job Title",
+      social: "social media link"
+    },
   ]; 

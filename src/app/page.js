@@ -16,7 +16,7 @@ export default function Home() {
       {/* <Countdown/> */}
       <ShiftingCountdown/>
       <VerticalAccordion/>
-      <TiltCard/>
+      {/* <TiltCard/> */}
       <Speakers/>
       <Footer/>
   </>

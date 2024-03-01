@@ -11,6 +11,7 @@ const VerticalAccordion = () => {
 
   return (
     <section className="p-4 bg-[#98B4AC]">
+      <p className='py-4 text-center text-white text-4xl font-bold'>Schedule</p>
       <div className="flex flex-col lg:flex-row h-fit lg:h-[450px] w-full max-w-6xl mx-auto shadow overflow-hidden">
         {items.map((item) => {
           return (
@@ -38,6 +39,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
 
   return (
     <>
+    
       <button
         className="bg-[#C9B46D]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
         onClick={() => setOpen(id)}
