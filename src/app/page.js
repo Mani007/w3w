@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Countdown from "./components/Countdown";
 import ShiftingCountdown from "./components/Shiftingcountdown";
 import TiltCard from "./components/TiltCard";
+import VerticalAccordion from "./components/VerticalAccordion";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       {/* <Countdown/> */}
       <ShiftingCountdown/>
+      <VerticalAccordion/>
       <TiltCard/>
       <Footer/>
   </>
