@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useWindowSize } from "../utils/useWindowSize";
 import { useState } from "react";
 import { Ultra } from "next/font/google";
+import {items} from '../constants'
 
 const VerticalAccordion = () => {
   const [open, setOpen] = useState(items[0].id);
@@ -18,15 +19,7 @@ const VerticalAccordion = () => {
               open={open}
               setOpen={setOpen}
               id={item.id}
-              plan={item.plan.map(
-                (i,index)=>{
-                  return (
-                      
-                      <li key={index}>{i}</li>
-                   );
-                }
-                
-              )}
+              plan={item.plan}
               //Icon={item.Icon}
               title={item.title}
               //imgSrc={item.imgSrc}
@@ -46,7 +39,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
   return (
     <>
       <button
-        className="bg-[#C9B46D] hover:bg-[#5E95A2] transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
+        className="bg-[#C9B46D]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
         onClick={() => setOpen(id)}
       >
         <span
@@ -84,11 +77,20 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
               initial="closed"
               animate="open"
               exit="closed"
-              className="px-4 py-2 bg-[#98B4AC] backdrop-blur-sm text-white"
+              className="px-4 py-2  w-full  text-start bg-[#5E95A2] backdrop-blur-sm text-white "
               >
-              {plan}
+              <div className='overflow-hidden space-y-3'>
+              {plan.map(
+                (i,index)=>{
+                  return (
+                    
+                    <ul  key={index}>
+                      <li className=' list-none'>{i}</li>
+                    </ul>
+                    
+                   );
+                })}
 
-              <div>
               </div>
             {/* <p>{description}</p> */}
             </motion.div>
@@ -115,7 +117,7 @@ const panelVariants = {
 const panelVariantsSm = {
   open: {
     width: "100%",
-    height: "200px",
+    height: "350px",
   },
   closed: {
     width: "100%",
@@ -134,45 +136,3 @@ const descriptionVariants = {
   closed: { opacity: 0, y: "100%" },
 };
 
-const items = [
-  {
-    id: 1,
-    title: "Day 1 - 8 March 2024",
-    plan: [ "Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.", ],
-    //Icon: FiDollarSign,
-    // imgSrc:
-    //   "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius deserunt quia consectetur aliquid obcaecati voluptatibus quos distinctio natus! Tenetur.",
-  },
-  {
-    id: 2,
-    title: "Day 2 - 9 March 2024",
-    plan: [ "Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.", ],
-    //Icon: FiPlay,
-    // imgSrc:
-    //   "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius deserunt quia consectetur aliquid obcaecati voluptatibus quos distinctio natus! Tenetur.",
-  },
-  {
-    id: 3,
-    title: "Day 3 - 10 March 2024",
-    plan: [ "Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.", ],
-    //Icon: FiBell,
-    // imgSrc:
-    //   "https://images.unsplash.com/photo-1578450671530-5b6a7c9f32a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius deserunt quia consectetur aliquid obcaecati voluptatibus quos distinctio natus! Tenetur.",
-  },
-  {
-    id: 4,
-    title: "Online Schedule",
-    plan: [ "Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.", ],
-    //Icon: FiBarChart,
-    // imgSrc:
-    //   "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius deserunt quia consectetur aliquid obcaecati voluptatibus quos distinctio natus! Tenetur.",
-  },
-];
