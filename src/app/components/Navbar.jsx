@@ -63,6 +63,7 @@ const Navbar = () => {
           >
             <ul className='list-none flex justify-end items-end flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
+                 <a key={nav.id} href={nav.id}>
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -75,6 +76,7 @@ const Navbar = () => {
                 >
                   <p>{nav.title}</p>
                 </li>
+                </a>
               ))}
               {/* <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button> */}
             </ul>
