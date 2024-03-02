@@ -7,7 +7,7 @@ function Partners() {
     <div id='partners' className='w-full h-full text-center relative bg-[#98B4AC]'>
     {/* <p className='py-10 text-white text-4xl font-bold'>Our Partners</p> */}
     <p className='py-10 text-white text-4xl font-bold'>Community Partners</p>
-        <div className='  flex flex-col-3 items-center justify-center gap-16 md:flex-row'>
+        <div className='  flex flex-col items-center justify-center gap-16 md:flex-row'>
             {partners.map(
                 (partner,index) =>(
                     <div key={index} className='mt-10 mb-10 flex flex-col items-center justify-center gap-16 md:flex-row'>
