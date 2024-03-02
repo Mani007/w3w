@@ -24,7 +24,7 @@ const Navbar = () => {
         >
            <Image src={w3w} alt='logo' size={20} className='h-16 w-12 object-contain' />
            <p className='text-[#344760] text-[14px] font-bold cursor-pointer flex '>
-            Web3 <br /> Women Summit <br /> 2024 &nbsp;
+            Web3 <br /> Women Summit <br /> 8-10 March 2024 &nbsp;
            </p>
          
         </Link>
