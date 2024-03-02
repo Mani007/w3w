@@ -60,8 +60,8 @@ const TiltCard = (props) => {
     >
       <div
         style={{
-          transform: "translateZ(75px)",
-          transformStyle: "preserve-3d",
+          // transform: "translateZ(75px)",
+          // transformStyle: "preserve-3d",
         }}
         className="absolute inset-4 grid place-content-center  rounded-xl bg-[#DBD2BD] shadow-lg"
       >
