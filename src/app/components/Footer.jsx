@@ -104,7 +104,7 @@ function Footer() {
         </svg>
       </a>
     </div>
-  <div className="p-2 text-center text-neutral-700 dark:text-neutral-200">
+  <div className="p-2 text-center text-neutral-700 ">
     © 2024 Web3Women Summit24.
    All rights reserved.
     
