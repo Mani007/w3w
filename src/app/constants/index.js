@@ -169,3 +169,30 @@ export const navLinks = [
       social: "social media link"
     },
   ]; 
+
+  export const partners = [
+    { 
+      id: 1,
+      imgSrc: "/blanklogo.png",
+      title: "Partner 1",
+      weblink: "#",
+    },
+    { 
+      id: 2,
+      imgSrc: "/blanklogo3.png",
+      title: "Partner 2",
+      weblink: "#",
+    },
+    { 
+      id: 3,
+      imgSrc: "/blanklogo1.png",
+      title: "Partner 3",
+      weblink: "#",
+    },
+    { 
+      id: 4,
+      imgSrc: "/blanklogo2.png",
+      title: "Partner 3",
+      weblink: "#",
+    },
+  ];

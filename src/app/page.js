@@ -8,6 +8,8 @@ import TiltCard from "./components/TiltCard";
 import VerticalAccordion from "./components/VerticalAccordion";
 import Speakers from "./components/Speakers";
 import Afterparty from "./components/Afterparty";
+import Partners from "./components/Partners";
+import Sponsors from "./components/Sponsors";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <VerticalAccordion/>
       {/* <TiltCard/> */}
       <Speakers/>
+      <Partners/>
+      <Sponsors/>
       <Afterparty/>
       <Footer/>
   </>
