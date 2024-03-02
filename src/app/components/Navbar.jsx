@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-neutral-200`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-neutral-200`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
         href='/' 
@@ -59,7 +59,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient bg-[#F2F5EC] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-30 rounded-xl`}
+            } p-6 black-gradient bg-[#F2F5EC] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-200 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-end flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
@@ -78,7 +78,7 @@ const Navbar = () => {
                 </li>
                 </a>
               ))}
-              {/* <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button> */}
+              <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
             </ul>
           </div>
         </div>
