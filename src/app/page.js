@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Countdown from "./components/Countdown";
-import ShiftingCountdown from "./components/Shiftingcountdown";
+import ShiftingCountdown from "./components/ShiftingCountdown";
 import TiltCard from "./components/TiltCard";
 import VerticalAccordion from "./components/VerticalAccordion";
 import Speakers from "./components/Speakers";
