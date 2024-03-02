@@ -92,7 +92,7 @@ const TiltCard = (props) => {
              target="_blank"
         href={props.social}
         type="button"
-        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9  uppercase leading-normal text-[#344760] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-50 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
