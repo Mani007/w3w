@@ -4,7 +4,8 @@ import {partners,} from '../constants'
 function Sponsors() {
   return (
     <>
-    <div className='w-full h-full  relative bg-[#8EB5DF]'>
+    <div id='sponsors' className='w-full h-full text-center relative bg-[#DBD2BD]'>
+            <p className='py-8 text-white text-4xl font-bold'>Our Sponsors</p>
         <div className='  flex flex-col items-center justify-center gap-16 md:flex-row'>
             {partners.map(
                 (partner,index) =>(

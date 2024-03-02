@@ -10,6 +10,8 @@ import Speakers from "./components/Speakers";
 import Afterparty from "./components/Afterparty";
 import Partners from "./components/Partners";
 import Sponsors from "./components/Sponsors";
+import About from "./components/About";
+import Venue from "./components/Venue";
 
 export default function Home() {
   return (
@@ -18,11 +20,13 @@ export default function Home() {
       <Hero/>
       {/* <Countdown/> */}
       <ShiftingCountdown/>
+      <About/>
       <VerticalAccordion/>
+      <Venue/>
       {/* <TiltCard/> */}
       <Speakers/>
-      <Partners/>
       <Sponsors/>
+      <Partners/>
       <Afterparty/>
       <Footer/>
   </>

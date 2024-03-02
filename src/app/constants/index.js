@@ -7,23 +7,27 @@ import {
 
 export const navLinks = [
     {
-      id: "about",
+      id: "#about",
       title: "About",
     },
     {
-      id: "Schedule",
+      id: "#venue",
+      title: "Venue",
+    },
+    {
+      id: "#schedule",
       title: "Schedule",
     },
     {
-      id: "speakers",
+      id: "#speakers",
       title: "Speakers",
     },
     {
-        id: "partners",
+        id: "#partners",
         title: "Partners",
     },
     {
-        id: "sponsors",
+        id: "#sponsors",
         title: "Sponsors",
     },
   ];

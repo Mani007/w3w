@@ -30,6 +30,7 @@ const Navbar = () => {
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
+            <a key={nav.id} href={nav.id}>
             <li
               key={nav.id}
               className={`${
@@ -39,6 +40,7 @@ const Navbar = () => {
             >
               <p>{nav.title}</p>
             </li>
+            </a>
           ))}
            <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
         </ul>

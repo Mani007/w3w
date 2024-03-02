@@ -4,7 +4,9 @@ import {partners,} from '../constants'
 function Partners() {
   return (
     <>
-    <div className='w-full h-full  relative bg-[#98B4AC]'>
+    <div id='partners' className='w-full h-full text-center relative bg-[#98B4AC]'>
+    {/* <p className='py-10 text-white text-4xl font-bold'>Our Partners</p> */}
+    <p className='py-10 text-white text-4xl font-bold'>Community Partners</p>
         <div className='  flex flex-col-3 items-center justify-center gap-16 md:flex-row'>
             {partners.map(
                 (partner,index) =>(
@@ -21,6 +23,7 @@ function Partners() {
             
 
         </div>
+        <p className='py-8 text-white text-4xl font-bold'>Media Partners</p>
         <div className='  flex flex-col items-center justify-center gap-16 md:flex-row'>
             {partners.map(
                 (partner,index) =>(
