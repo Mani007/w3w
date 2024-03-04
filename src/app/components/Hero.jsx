@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import {banner, w3w} from '../assets'
+import {banner,banner1, w3w} from '../assets'
 function Hero() {
   return (
     <>

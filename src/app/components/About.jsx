@@ -20,7 +20,12 @@ function About() {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Web3 Women Summit 2024
         
       </h1>
-      <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur odio tempore perspiciatis autem minus animi at incidunt aspernatur voluptatem, aperiam maxime dolor, architecto similique optio illo! Velit quaerat ipsa aspernatur quas modi odio quasi error ex facilis ab vero sed, voluptate omnis adipisci! Pariatur earum iure aliquam laborum officia inventore deleniti placeat eaque unde. Officia quisquam sit fugiat aliquam, cupiditate aut modi blanditiis consequatur quasi eaque ipsa maiores! Sed dicta accusamus dolorum odio repellendus natus cupiditate id architecto molestiae eius tempora, iusto, dolore minus tempore odit enim numquam repudiandae harum quae vitae at cumque? Officia, dicta. Vero nulla praesentium natus voluptas optio quas ab libero a necessitatibus repellat officia consequatur error asperiores facilis ullam iure, ipsum iste vel fugiat atque modi illum! Accusamus nesciunt quibusdam, officia neque similique quis enim repellendus ea quas voluptatem ex sunt tempore error quia reiciendis non saepe suscipit quae, repellat, aspernatur odit. Dignissimos, itaque quae asperiores aperiam suscipit placeat recusandae corrupti fugit perferendis. Ea, illo! Eveniet iusto iure saepe eos ipsam repellendus quibusdam et, atque quis ullam. Officiis laborum, eligendi, velit cumque repellat quaerat recusandae, nam nobis fugiat in explicabo impedit id natus facilis. Sed excepturi minima molestiae atque a eius natus sapiente eaque.</p>
+      <p className="mb-8 leading-relaxed">Join us at the Web3 Women Summit 2024 in Lisbon from March 8th-10th (7th will be pre event!), a pivotal event highlighting the crucial role of women in the future of blockchain, cryptocurrency, and web3 technologies. This summit is not just an event; it&apos;s a movement towards a more equitable and innovative world, driven by the leadership of women in tech. We invite visionaries, thought leaders, and innovators to share their expertise and insights, contributing to a diverse and empowering digital future.
+
+</p>
+<p className="mb-8 leading-relaxed">
+The Web3 Women Summit offers a unique platform for collaboration, discussion, and innovation, celebrating progress and calling for action to shape an inclusive tech landscape. Be part of this historic gathering to empower and inspire the next generation of women in technology. Let&apos;s unite in Lisbon to forge a path toward a future where everyone thrives. Secure your place in shaping the future. Join us in empowering women in tech.
+</p>
       <div className="flex justify-center">
       
       </div>
