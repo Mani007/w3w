@@ -22,9 +22,9 @@ function Hero() {
    
   <div className=" relative lg:w-2/3 w-full">
         <div className="flex justify-items-start">
-        <Link href='/'>
+        {/* <Link href='/'>
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#C9B46D]  hover:bg-[#8EB5DF] rounded text-lg">Be a sponsor </button>&nbsp;
-        </Link>
+        </Link> */}
         <Link href='/'>
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#98B4AC]  hover:bg-[#8EB5DF] rounded text-lg">Register</button>
         </Link>
