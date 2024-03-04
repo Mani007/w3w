@@ -5,7 +5,7 @@ import {banner,banner1, w3w} from '../assets'
 function Hero() {
   return (
     <>
-    <section className="mt-20 text-gray-600 bg-[#FC8E9F] body-font">
+    <section className="mt-20 text-gray-600 bg-[#344760] body-font">
   <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
     {/* <Image
@@ -15,7 +15,7 @@ function Hero() {
       alt="Picture of the author"
     /> */}
     <Image
-      src={banner1}
+      src={banner}
       sizes='100vw'
       alt="Picture of the author"
     />

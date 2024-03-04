@@ -10,7 +10,7 @@ const VerticalAccordion = () => {
   const [open, setOpen] = useState(items[0].id);
 
   return (
-    <section id='schedule' className="p-4 bg-[#F79489]">
+    <section id='schedule' className="p-4 bg-[#98B4AC]">
       <p className='py-4 text-center text-white text-4xl font-bold'>Schedule</p>
       <div className="flex flex-col lg:flex-row h-fit lg:h-[250px] w-full max-w-6xl mx-auto shadow overflow-hidden">
         {items.map((item) => {
@@ -41,7 +41,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
     <>
     
       <button
-        className="bg-[#FCBB78]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
+        className="bg-[#C9B46D]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
         onClick={() => setOpen(id)}
       >
         <span
@@ -72,7 +72,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
-            className="w-full h-full overflow-hidden relative bg-[#F9F1F0] flex items-center"
+            className="w-full h-full overflow-hidden relative bg-[#F2F5EC] flex items-center"
           >
             <motion.div
               variants={descriptionVariants}

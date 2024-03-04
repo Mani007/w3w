@@ -7,7 +7,7 @@ import TiltCard from './TiltCard'
 function Speakers() {
   return (
     <>
-    <div id='speakers' className='w-full text-center bg-[#F79489]'>
+    <div id='speakers' className='w-full text-center bg-[#5E95A2]'>
         <p className='py-8 text-white text-center text-4xl font-bold'>Our Speakers</p>
     <div className='container   mx-auto py-12 px-8'>
         <div className='grid items-center justify-center lg:grid-cols-3 gap-4 gap-y-10'>

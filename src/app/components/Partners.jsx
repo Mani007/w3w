@@ -4,7 +4,7 @@ import {partners,cpartners} from '../constants'
 function Partners() {
   return (
     <>
-    <div id='partners' className='w-full h-full text-center relative bg-[#FC8E9F]'>
+    <div id='partners' className='w-full h-full text-center relative bg-[#98B4AC]'>
     {/* <p className='py-10 text-white text-4xl font-bold'>Our Partners</p> */}
     <p className='py-10 text-white text-4xl font-bold'>Community Partners</p>
         <div className='  flex flex-col items-center justify-center gap-16 md:flex-row'>

@@ -56,14 +56,14 @@ const TiltCard = (props) => {
         rotateX,
         rotateY,
       }}
-      className="relative h-96 w-72  rounded-xl bg-[#F9F1F0]"
+      className="relative h-96 w-72  rounded-xl bg-[#F2F5EC]"
     >
       <div
         style={{
           // transform: "translateZ(75px)",
           // transformStyle: "preserve-3d",
         }}
-        className="absolute inset-4 grid place-content-center  rounded-xl bg-[#FCBB78] shadow-lg"
+        className="absolute inset-4 grid place-content-center  rounded-xl bg-[#DBD2BD] shadow-lg"
       >
         {/* <FiMousePointer
           style={{
@@ -72,7 +72,7 @@ const TiltCard = (props) => {
           className="mx-auto text-4xl"
         /> */}
         
-        <div className='shadow-lg rounded-lg bg-[#FC8E9F] text-white  text-center' key={props.id}>
+        <div className='shadow-lg rounded-lg bg-[#98B4AC] text-white  text-center' key={props.id}>
                 <Image
                 src={props.imgSrc}
                 className='rounded-t-lg '  
