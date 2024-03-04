@@ -75,8 +75,8 @@ const TiltCard = (props) => {
         <div className='shadow-lg rounded-lg bg-[#98B4AC] text-white  text-center' key={props.id}>
                 <Image
                 src={props.imgSrc}
-                className='rounded-t-lg'  
-                style={{ "width": "100%"}}
+                className='rounded-t-lg '  
+                style={{ "width": "100%",  "borderRadius": "100%"}}
                 alt={props.name}
                 height={150}
                 width={250}   
