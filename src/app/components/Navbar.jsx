@@ -82,11 +82,11 @@ const Navbar = () => {
                 </li>
                 </a>
               ))}
-            </ul>
               <a href="https://app.moongate.id/e/web-3-women-summit" 
               target="_blank" >
               <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
               </a>
+            </ul>
           </div>
         </div>
       </div>

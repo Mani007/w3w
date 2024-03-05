@@ -27,9 +27,11 @@ function Hero() {
         {/* <Link href='/'>
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#C9B46D]  hover:bg-[#8EB5DF] rounded text-lg">Be a sponsor </button>&nbsp;
         </Link> */}
-        <Link href='/'>
+        <a href="https://app.moongate.id/e/web-3-women-summit" target="_blank">
+
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#98B4AC]  hover:bg-[#8EB5DF] rounded text-lg">Register</button>
-        </Link>
+        </a>
+        
       </div>
     </div> 
   </div>
