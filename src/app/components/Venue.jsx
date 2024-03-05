@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Venue() {
   return (
     <>
-    <div id='venue' className='w-full h-full bg-[#DBD2BD]'>
+    <div id='venue' className='w-full h-full bg-gradient-to-r  from-[#FC8E9F] via-[#FC72B9] to-[#FCBB78]'>
     <section  className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full text-center mb-20 flex-wrap">

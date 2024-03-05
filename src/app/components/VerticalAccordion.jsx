@@ -10,7 +10,7 @@ const VerticalAccordion = () => {
   const [open, setOpen] = useState(items[0].id);
 
   return (
-    <section id='schedule' className="p-4 bg-[#98B4AC]">
+    <section id='schedule' className="p-4 bg-gradient-to-r  from-[#FC8E9F] via-[#FC72B9] to-[#FCBB78]">
       <p className='py-4 text-center text-white text-4xl font-bold'>Schedule</p>
       <div className="flex flex-col lg:flex-row h-fit lg:h-[350px] w-full max-w-6xl mx-auto shadow overflow-hidden">
         {items.map((item) => {
@@ -41,7 +41,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
     <>
     
       <button
-        className="bg-[#C9B46D]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
+        className="bg-[#FCBB78]  transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
         onClick={() => setOpen(id)}
       >
         <span
@@ -79,7 +79,7 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
               initial="closed"
               animate="open"
               exit="closed"
-              className="px-4 py-2 w-full text-md lg:text-xl text-start bg-[#DBD2BD] backdrop-blur-sm text-white "
+              className="px-4 py-2 w-full text-md lg:text-xl text-start bg-[#FADCD9] backdrop-blur-sm text-white "
               >
               <div className='overflow-hidden space-y-2'>
               {plan.map(

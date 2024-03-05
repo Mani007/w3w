@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import {styles} from '../utils/styles'
 import {navLinks} from'../constants'
-import {logo,menu,close, w3w} from '../assets'
+import {logo,menu,close, w3w, w3logo} from '../assets'
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-neutral-200`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-[#FADCD9]`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
         href='/' 
@@ -42,7 +42,11 @@ const Navbar = () => {
             </li>
             </a>
           ))}
-           <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
+          <a href="https://app.moongate.id/e/web-3-women-summit" 
+              target="_blank">
+
+          <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
+              </a>
         </ul>
        
 
@@ -78,8 +82,11 @@ const Navbar = () => {
                 </li>
                 </a>
               ))}
-              <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
             </ul>
+              <a href="https://app.moongate.id/e/web-3-women-summit" 
+              target="_blank" >
+              <button className='rounded px-5  bg-[#799AC3] text-white text-xl hover:bg-[#8EB5DF]'>Register</button>
+              </a>
           </div>
         </div>
       </div>

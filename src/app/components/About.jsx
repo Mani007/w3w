@@ -5,7 +5,7 @@ import afterparty from '../assets/afterparty.jpg'
 function About() {
   return (
     <>
-    <div id='about' className='w-full h-full bg-[#344760]'>
+    <div id='about' className='w-full h-full bg-gradient-to-r  from-[#FC8E9F] via-[#FC72B9] to-[#FCBB78]'>
  <section className="text-white body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">

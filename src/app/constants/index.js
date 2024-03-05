@@ -46,7 +46,7 @@ export const navLinks = [
     {
       id: 2,
       title: "Day 2 - 9 March 2024",
-      plan: [ "10 am doors opening","11 am Speaker - lawyer topic", "1pm – 2pm lunch break", ],
+      plan: [ "10am-opening","11:30am-12:30pm Keynote-Susana REFI", "12:30-1pm Networking","1pm–2pm Lunch break","2:30-3pm Keynote-Topic: Web3 & Mental Health-Natacha Cottu", "3:30pm -4:30pm Keynote-Prompt your Mind with Calmila (AI Video Streaming)-Anil Altas Brug", "5pm - 6pm - Marketing panel - Vera Voron,Nicole Carvalho,Ipshita Kumar,Mariana Suchodolski ", ],
       //Icon: FiPlay,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
@@ -56,7 +56,7 @@ export const navLinks = [
     {
       id: 3,
       title: "Day 3 - 10 March 2024",
-      plan: [ "Brunch at 12","Ceremony closing at 5pm", ],
+      plan: [ "12-1pm Brunch","1pm-2pm-CMO/CEO Panel-Alice Shikova,Blanca Almaguer,Alexa Sasha Topic: Women in leadership position","2:30pm-3:30pm Keynote-Topic: Stop Hustling 3 Secrets To Create Success & Lead yourself Powerfully in 2024 online with Judith Juhnke" ],
       //Icon: FiBell,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1578450671530-5b6a7c9f32a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
@@ -266,17 +266,198 @@ export const navLinks = [
       weblink: "https://turboslownft.com/",
     },
   ];
+  export const sponsors1 = [
+    { 
+      id: 1,
+      imgSrc: "/partners/media/casa.png",
+      title: "Casa",
+      weblink: "#",
+    },
+    { 
+      id: 2,
+      imgSrc: "/partners/media/chili.png",
+      title: "Chilibangs",
+      weblink: "https://chilibangs.com/",
+    },
+    { 
+      id: 3,
+      imgSrc: "/partners/media/vino.png",
+      title: "vino",
+      weblink: "#",
+    },
+    { 
+      id: 4,
+      imgSrc: "/partners/media/savg.png",
+      title: "savg",
+      weblink: "#",
+    },
+    { 
+      id: 5,
+      imgSrc: "/partners/media/eco.png",
+      title: "MetaMixer",
+      weblink: "#",
+    },
+    { 
+      id: 7,
+      imgSrc: "/partners/media/ivend.jpg",
+      title: "Ivend",
+      weblink: "#",
+    },
+    // { 
+    //   id: 6,
+    //   imgSrc: "/blanklogo2.png",
+    //   title: "Artsies Collective",
+    //   weblink: "artsies.io",
+    // },
+    // { 
+    //   id: 7,
+    //   imgSrc: "/blanklogo2.png",
+    //   title: "Turboslow Web3 ",
+    //   weblink: "https://turboslownft.com/",
+    // },
+  ];
+  export const mpartners1 = [
+    { 
+      id: 1,
+      imgSrc: "/partners/media/web3go.png",
+      title: "web3",
+      weblink: "#",
+    },
+    { 
+      id: 2,
+      imgSrc: "/partners/media/nfc.png",
+      title: "nfc",
+      weblink: "https://www.nonfungibleconference.com/",
+    },
+    { 
+      id: 3,
+      imgSrc: "/partners/media/cv.png",
+      title: "refi",
+      weblink: "#",
+    },
+    { 
+      id: 4,
+      imgSrc: "/partners/media/nubees.png",
+      title: "nubees ",
+      weblink: "#",
+    },
+    { 
+      id: 5,
+      imgSrc: "/partners/media/nbx.png",
+      title: "nbx",
+      weblink: "#",
+    },
+    { 
+      id: 6,
+      imgSrc: "/partners/media/web3wed.png",
+      title: "Web3 Wednesday",
+      weblink: "https://chilibangs.com/",
+    },
+    { 
+      id: 7,
+      imgSrc: "/partners/media/next.jpg",
+      title: "The Next",
+      weblink: "#",
+    },
+   
+  ];
+
+  export const mpartners2 = [
+    { 
+      id: 1,
+      imgSrc: "/partners/media/algo.png",
+      title: "algo",
+      weblink: "#",
+    },
+    { 
+      id: 2,
+      imgSrc: "/partners/media/bl.png",
+      title: "bl",
+      weblink: "#",
+    },
+    { 
+      id: 3,
+      imgSrc: "/partners/media/ou.png",
+      title: "ou",
+      weblink: "#",
+    },
+    { 
+      id: 4,
+      imgSrc: "/partners/media/pix.png",
+      title: "pix ",
+      weblink: "#",
+    },
+    { 
+      id: 5,
+      imgSrc: "/partners/media/refi.png",
+      title: "web3",
+      weblink: "#",
+    },
+    { 
+      id: 6,
+      imgSrc: "/partners/media/syn.png",
+      title: "syn",
+      weblink: "#",
+    },
+    { 
+      id: 7,
+      imgSrc: "/partners/media/q.png",
+      title: "Q protocol",
+      weblink: "https://q.org/",
+    },
+   
+  ];
+  export const mpartners3 = [
+    { 
+      id: 1,
+      imgSrc: "/partners/media/in.png",
+      title: "in",
+      weblink: "#",
+    },
+    { 
+      id: 2,
+      imgSrc: "/partners/media/no.png",
+      title: "no",
+      weblink: "#",
+    },
+    { 
+      id: 3,
+      imgSrc: "/partners/media/media1.jpg",
+      title: "vino",
+      weblink: "#",
+    },
+    { 
+      id: 4,
+      imgSrc: "/partners/media/roll.png",
+      title: "roll",
+      weblink: "#",
+    },
+    { 
+      id: 5,
+      imgSrc: "/partners/media/media2.jpg",
+      title: "raphel",
+      weblink: "#",
+    },
+    { 
+      id: 6,
+      imgSrc: "/partners/media/bl.png",
+      title: "Web3 Women",
+      weblink: "#",
+    },
+   
+   
+  ];
 
   export const cpartners = [
     { 
       id: 1,
-      imgSrc: "/partners/community/cryptof.jpeg",
+      imgSrc: "/partners/community/cryptoof.png",
       title: "Crypto Female",
       weblink: "https://www.cryptofemale.org/",
     },
     { 
       id: 2,
-      imgSrc: "/partners/community/moongate.webp",
+      imgSrc: "/partners/community/moongate.png",
       title: "Moongate",
       weblink: "https://www.moongate.id/",
     },
@@ -288,19 +469,19 @@ export const navLinks = [
     },
     { 
       id: 4,
-      imgSrc: "/partners/community/offchain.jpg",
+      imgSrc: "/partners/community/offchain.png",
       title: "Offchain Lisbon ",
       weblink: "#",
     },
     { 
       id: 5,
-      imgSrc: "/partners/community/metamix.jpeg",
+      imgSrc: "/partners/community/metamix.png",
       title: "MetaMixer",
       weblink: "https://MetaMixer.pl",
     },
     { 
       id: 6,
-      imgSrc: "/partners/community/ARTSIES COLLECTIVE.png",
+      imgSrc: "/partners/community/art.png",
       title: "Artsies Collective",
       weblink: "artsies.io",
     },

@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Openparty() {
   return (
    <>
-    <section className=" text-gray-600 bg-[#344760] body-font">
+    <section className=" text-gray-600 bg-gradient-to-r  from-[#FC8E9F] via-[#FC72B9] to-[#FCBB78] body-font">
   <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
   <p className='py-5 text-center text-white text-4xl font-bold'>Grand Opening Party</p>
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
@@ -28,9 +28,9 @@ function Openparty() {
         {/* <Link href='/'>
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#C9B46D]  hover:bg-[#8EB5DF] rounded text-lg">Be a sponsor </button>&nbsp;
         </Link> */}
-        <Link href='/'>
+        <a href="https://app.moongate.id/e/web-3-women-summit" target="_blank">
         <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-[#98B4AC]  hover:bg-[#8EB5DF] rounded text-lg">Register Now</button>
-        </Link>
+        </a>
       </div>
     </div> 
   </div>

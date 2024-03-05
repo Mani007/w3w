@@ -2,12 +2,14 @@
 import React from 'react'
 import Image from 'next/image'
 import afterparty from '../assets/afterparty.jpg'
+import party from '../assets/18.png'
 function Afterparty() {
   return (
    <>
     <div className="w-full h-full relative flex ">
         <Image src={afterparty}
         sizes={['100vw', '100vh']}
+        
         alt="Afterparty web3women summit 2024"
         className="w-full h-full relative"
         />
@@ -24,7 +26,7 @@ function Afterparty() {
             </p> */}
             <a className="inline-block w-full md:w-auto mb-4 md:mr-6 py-2 px-8 text-sm font-bold uppercase border-2 border-transparent bg-[#98B4AC] rounded hover:bg-gray-100 text-white transition duration-200"
             target="_blank"
-              href="#">Register now</a>
+              href="https://app.moongate.id/e/web-3-women-summit">Register now</a>
           </div>
         </div>
       </div>

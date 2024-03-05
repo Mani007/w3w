@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import {partners,} from '../constants'
+import {partners,sponsors1} from '../constants'
 function Sponsors() {
   return (
     <>
-    <div id='sponsors' className='w-full h-full text-center relative bg-[#DBD2BD]'>
+    <div id='sponsors' className='w-full h-full text-center relative bg-gradient-to-r  from-[#FC8E9F] via-[#FC72B9] to-[#FCBB78]'>
             <p className='py-8 text-white text-4xl font-bold'>Our Sponsors</p>
         <div className='  flex flex-col items-center justify-center gap-16 md:flex-row'>
-            {partners.map(
+            {sponsors1.map(
                 (partner,index) =>(
                     <div key={index} className='mt-10 mb-10 flex flex-col items-center justify-center gap-16 md:flex-row'>
                         <a href={partners.weblink} target='_blank'>

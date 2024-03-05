@@ -56,7 +56,7 @@ const TiltCard = (props) => {
         rotateX,
         rotateY,
       }}
-      className="relative h-96 w-72  rounded-xl bg-[#F2F5EC]"
+      className="relative h-96 w-72  rounded-xl bg-[#FCBB78]"
     >
       <div
         style={{
@@ -72,7 +72,7 @@ const TiltCard = (props) => {
           className="mx-auto text-4xl"
         /> */}
         
-        <div className='shadow-lg rounded-lg bg-[#98B4AC] text-white  text-center' key={props.id}>
+        <div className='shadow-lg rounded-lg bg-[#FC8E9F] text-white  text-center' key={props.id}>
                 <Image
                 src={props.imgSrc}
                 className='rounded-t-lg '  

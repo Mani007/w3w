@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     <footer
-  className="relative inset-x-0 bottom-0 bg-neutral-200 text-center lg:text-left">
+  className="relative inset-x-0 bottom-0 bg-[#FADCD9] text-center lg:text-left">
      <div className=" flex justify-center">
     
 
