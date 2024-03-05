@@ -199,7 +199,7 @@ export const navLinks = [
     {
       id: 16,
       name: "Alexa (Sasha) Sviryd",
-      imgSrc:"/speakers/Alexasasha.png",
+      imgSrc:"/speakers/alexasasha.png",
       company: "The Next",
       jobtitle: "CEO",
       social: "https://www.linkedin.com/in/sasha-svirid"
