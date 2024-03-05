@@ -12,6 +12,7 @@ import Partners from "./components/Partners";
 import Sponsors from "./components/Sponsors";
 import About from "./components/About";
 import Venue from "./components/Venue";
+import Openparty from "./components/Openparty";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <About/>
       <VerticalAccordion/>
       <Venue/>
+      <Openparty/>
       {/* <TiltCard/> */}
       <Speakers/>
       <Sponsors/>

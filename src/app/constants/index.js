@@ -36,7 +36,7 @@ export const navLinks = [
     {
       id: 1,
       title: "Day 1 - 8 March 2024",
-      plan: [  "4pm Opening and welcome drink and Networking", "6pm 1st panel (45 min)"," 8pm 2nd panel (45 min)","10 pm Band starts – Brazilian music",],
+      plan: [  "4pm - Grand opening and welcome drink", "Join the Web3 Women Summit with a warm welcome and refreshing drinks", "6pm to 10pm - The Web3 Women Summit - Day 1","Explore new ideas, share experiences, and learn from our speakers. You will have a chance to meet an AI meditation guide - Calmila AI.","10pm-2pm Party at Casa de Pedra – Brazilian music",],
       //Icon: FiDollarSign,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
