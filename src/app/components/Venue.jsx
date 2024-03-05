@@ -8,7 +8,7 @@ function Venue() {
     <section  className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full text-center mb-20 flex-wrap">
-      <h1 className="sm:text-4xl text-4xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">The Location <br />CASA DE PEDRA</h1>
+      <h1 className="sm:text-4xl text-4xl px-10 font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Venue <br />CASA DE PEDRA</h1>
       
       <p className="lg:pl-6 lg:w-2/3 mx-auto  text-white text-bold leading-relaxed text-2xl">Av. Dr. Arlindo Vicente, <br /> 1950-079 <br />Lisboa</p>
     </div>
