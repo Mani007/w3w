@@ -7,7 +7,7 @@ function Openparty() {
    <>
     <section className=" text-gray-600 bg-[#344760] body-font">
   <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
-  <p className='py-5 text-white text-4xl font-bold'>Grand Opening Party</p>
+  <p className='py-5 text-center text-white text-4xl font-bold'>Grand Opening Party</p>
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
     {/* <Image
       src="/images/opscraftherosection.png"
