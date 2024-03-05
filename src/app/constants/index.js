@@ -146,7 +146,7 @@ export const navLinks = [
       imgSrc:"/speakers/Mariana Suchodolski.png",
       company: "Bonfire.xyz",
       jobtitle: "Content & Community lead",
-      social: "social media link"
+      social: "https://www.linkedin.com/in/mariana-suchodolski-19977926/"
     },
     {
       id: 10,
