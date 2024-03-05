@@ -79,7 +79,7 @@ export const navLinks = [
     {
       id: 1,
       name: "Julia Muszynski",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/julia.png",
       company: "Lumily Labs, tingz",
       jobtitle: "Co-founder, CEO",
       social: "https://www.linkedin.com/in/julia-muszynski123/"
@@ -87,15 +87,15 @@ export const navLinks = [
     {
       id: 2,
       name: "Anil Altas Brug",
-      imgSrc:"/speakers/dogtest.jpg",
-      company: "Turboslow Web3 Agency / AI Meditation Project named Calmila",
+      imgSrc:"/speakers/Anil Altas Brug.png",
+      company: "Turboslow Web3 Agency and AI Meditation Project named Calmila",
       jobtitle: "Co-founder and Creator",
       social: "https://www.linkedin.com/in/anilaltasbrug/"
     },
     {
       id: 3,
       name: "Daniela Zoellmer",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/daniela.png",
       company: "Zoellmer Lawfirm",
       jobtitle: "Lawyer",
       social: "https://de.linkedin.com/in/danielazoellmer"
@@ -103,7 +103,7 @@ export const navLinks = [
     {
       id: 4,
       name: "Marina Markezic",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Marina Markezic.png",
       company: "EUCI",
       jobtitle: "Co-founder ",
       social: "https://www.linkedin.com/in/marinamarkezic/"
@@ -111,7 +111,7 @@ export const navLinks = [
     {
       id: 5,
       name: "Alice Shikova",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Alice Shikova.png",
       company: "Folks Finance",
       jobtitle: "CMO",
       social: "https://www.linkedin.com/in/alice-shikova-36a708194/"
@@ -119,7 +119,7 @@ export const navLinks = [
     {
       id: 6,
       name: "Nicole Carvalho",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Nicole Carvalho.png",
       company: "BeInCrypto",
       jobtitle: "Lead Marketing Specialist",
       social: "https://www.linkedin.com/in/nicole-carvalho-31099175/"
@@ -127,7 +127,7 @@ export const navLinks = [
     {
       id: 7,
       name: "ATHINA STANTZOS",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/ATHINA STANTZOS.png",
       company: "SettleMint",
       jobtitle: "Senior Technical Engineer",
       social: "https://www.linkedin.com/in/athinastantzos/"
@@ -135,7 +135,7 @@ export const navLinks = [
     {
       id: 8,
       name: "Ipshita Kumar",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Ipshita Kumar.png",
       company: "Hype ",
       jobtitle: "VP Brand Innovation",
       social: "https://www.linkedin.com/in/ipshita-kumar/"
@@ -143,7 +143,7 @@ export const navLinks = [
     {
       id: 9,
       name: "Mariana Suchodolski",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Mariana Suchodolski.png",
       company: "Bonfire.xyz",
       jobtitle: "Content & Community lead",
       social: "social media link"
@@ -151,7 +151,7 @@ export const navLinks = [
     {
       id: 10,
       name: "Kristina Hayhoe",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Kristina Hayhoe.png",
       company: "Lumily Labs, tingz",
       jobtitle: "Co-founder, CEO",
       social: "https://www.linkedin.com/in/abcdefghijkkk/"
@@ -159,7 +159,7 @@ export const navLinks = [
     {
       id: 11,
       name: "Judith Juhnke",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Judith Juhnke.png",
       company: "Judith Juhnke Coaching - YOU&JJ-Tailormade Life GmbH",
       jobtitle: "Founder & CEO",
       social: "https://www.linkedin.com/in/judithjuhnke/"
@@ -167,7 +167,7 @@ export const navLinks = [
     {
       id: 12,
       name: "Inês Bragança Gaspar",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/ines.png",
       company: "Web3 Lawyer",
       jobtitle: "Lawyer",
       social: "https://www.linkedin.com/in/inesbragancagaspar/"
@@ -175,7 +175,7 @@ export const navLinks = [
     {
       id: 13,
       name: "Natacha Cottu",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Natacha Cottu.png",
       company: "Artsies Collective",
       jobtitle: "Founder",
       social: "https://www.linkedin.com/in/natacha-cottu-151280139/"
@@ -183,7 +183,7 @@ export const navLinks = [
     {
       id: 14,
       name: "Diane Bensoussan",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Diane Bensoussan.png",
       company: "WalletConnect",
       jobtitle: "Product Design",
       social: "https://www.linkedin.com/in/dianeben"
@@ -191,7 +191,7 @@ export const navLinks = [
     {
       id: 15,
       name: "Antsa Rakotoniaina",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Antsa Rakotoniaina.png",
       company: "Speakjourney and LionessandEagle",
       jobtitle: "Founder and Content creator",
       social: "https://www.linkedin.com/in/a-fandresena-rakotoniaina-549596267/"
@@ -199,7 +199,7 @@ export const navLinks = [
     {
       id: 16,
       name: "Alexa (Sasha) Sviryd",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Alexasasha.png",
       company: "The Next",
       jobtitle: "CEO",
       social: "https://www.linkedin.com/in/sasha-svirid"
@@ -207,7 +207,7 @@ export const navLinks = [
     {
       id: 17,
       name: "Alina Tsoy",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/LinTsoy.png",
       company: "Personal style coaching for enterpreneurs",
       jobtitle: "Personal stylist and coach",
       social: "https://www.linkedin.com/in/lin-tsoy-707187278/"
@@ -215,7 +215,7 @@ export const navLinks = [
     {
       id: 18,
       name: "Blanca Almaguer",
-      imgSrc:"/speakers/dogtest.jpg",
+      imgSrc:"/speakers/Blanca Almaguer.png",
       company: "Audytas",
       jobtitle: "CMO/Co-Founder",
       social: "https://www.linkedin.com/in/balmaguer/"

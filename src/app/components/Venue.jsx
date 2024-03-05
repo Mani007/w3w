@@ -16,7 +16,7 @@ function Venue() {
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-1/2">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/six.png"
         width={500}
         height={300}
         style={{ "width": "100%"}}
@@ -25,7 +25,7 @@ function Venue() {
         </div>
         <div className="md:p-2 p-1 w-1/2">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/five.png"
         width={501}
         height={301}
         style={{ "width": "100%"}}
@@ -34,7 +34,7 @@ function Venue() {
         </div>
         <div className="md:p-2 p-1 w-full">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/two.jpg"
         width={600}
         height={360}
         style={{ "width": "100%"}}
@@ -45,7 +45,7 @@ function Venue() {
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-full">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/four.jpg"
         width={601}
         height={361}
         style={{ "width": "100%"}}
@@ -54,7 +54,7 @@ function Venue() {
         </div>
         <div className="md:p-2 p-1 w-1/2">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/three.jpg"
         width={502}
         height={302}
         style={{ "width": "100%"}}
@@ -63,7 +63,7 @@ function Venue() {
         </div>
         <div className="md:p-2 p-1 w-1/2">
         <Image
-        src="/blankvenue1.jpg"
+        src="/venue/one.jpg"
         width={503}
         height={303}
         style={{ "width": "100%"}}
