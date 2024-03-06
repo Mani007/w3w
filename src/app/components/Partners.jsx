@@ -27,7 +27,7 @@ function Partners() {
             {mpartners2.map(
                 (partner,index) =>(
                     <div key={index} className='mt-10 mb-10 mx-6 flex flex-col items-center justify-center gap-16 md:flex-row'>
-                        <a href={partners.weblink} target='_blank'>
+                        <a href={partner.weblink} target='_blank'>
                         <Image src={partner.imgSrc} alt='logo' width={230} height={230} className='w-50 h-50 object-contain' />
                         {/* <p className='text-[#344760] text-[18px] font-bold cursor-pointer flex '>
                             {partner.title}
@@ -44,7 +44,7 @@ function Partners() {
             {mpartners1.map(
                 (partner,index) =>(
                     <div key={index} className='mt-10 mb-10 flex flex-col items-center justify-center gap-16 md:flex-row'>
-                        <a href={partners.weblink} target='_blank'>
+                        <a href={partner.weblink} target='_blank'>
                         <Image src={partner.imgSrc} alt='logo' width={200} height={200} className='w-50 h-50 object-contain' />
                         {/* <p className='text-[#344760] text-[18px] font-bold cursor-pointer flex '>
                             {partner.title}
@@ -61,7 +61,7 @@ function Partners() {
             {mpartners3.map(
                 (partner,index) =>(
                     <div key={index} className='mt-10 mb-10 flex flex-col items-center justify-center gap-16 md:flex-row'>
-                        <a href={partners.weblink} target='_blank'>
+                        <a href={partner.weblink} target='_blank'>
                         <Image src={partner.imgSrc} alt='logo' width={200} height={200} className='w-50 h-50 object-contain' />
                         {/* <p className='text-[#344760] text-[18px] font-bold cursor-pointer flex '>
                             {partner.title}
