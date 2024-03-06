@@ -446,7 +446,7 @@ export const navLinks = [
     },
     { 
       id: 7,
-      imgSrc: "/partners/media/doin.jpg",
+      imgSrc: "/partners/media/doin.png",
       title: "DOIN lisbon",
       weblink: "#",
     },
@@ -494,7 +494,7 @@ export const navLinks = [
     },
     { 
       id: 7,
-      imgSrc: "/partners/media/turboround.JPG",
+      imgSrc: "/partners/media/turborounded.png",
       title: "Turboslow Web3 ",
       weblink: "https://turboslownft.com/",
     },
