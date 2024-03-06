@@ -26,7 +26,7 @@ function Footer() {
       </a>
 
       <a
-        href="https://www.instagram.com/web3womensummit/"
+        href="https://t.me/Web3WomenSummit"
         target="_blank"
         type="button"
         className="m-1 h-9 w-9  uppercase leading-normal text-[#344760] transition duration-150 ease-in-out hover:bg-[#80B1C8] hover:bg-opacity-50 focus:outline-none focus:ring-0"

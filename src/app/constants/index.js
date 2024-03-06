@@ -434,7 +434,7 @@ export const navLinks = [
     },
     { 
       id: 5,
-      imgSrc: "/partners/media/media2.jpg",
+      imgSrc: "/partners/media/racoround.png",
       title: "raphel",
       weblink: "#",
     },
@@ -444,6 +444,13 @@ export const navLinks = [
       title: "Web3 Women",
       weblink: "#",
     },
+    { 
+      id: 7,
+      imgSrc: "/partners/media/doin.jpg",
+      title: "DOIN lisbon",
+      weblink: "#",
+    },
+   
    
    
   ];
@@ -487,7 +494,7 @@ export const navLinks = [
     },
     { 
       id: 7,
-      imgSrc: "/partners/community/turboslow.jpeg",
+      imgSrc: "/partners/media/turboround.JPG",
       title: "Turboslow Web3 ",
       weblink: "https://turboslownft.com/",
     },
