@@ -301,7 +301,7 @@ export const navLinks = [
       id: 7,
       imgSrc: "/partners/media/ivend.jpg",
       title: "Ivend",
-      weblink: "#",
+      weblink: "https://ipal-network.com/",
     },
     // { 
     //   id: 6,
