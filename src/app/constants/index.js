@@ -371,9 +371,9 @@ export const navLinks = [
     },
     { 
       id: 2,
-      imgSrc: "/partners/media/bl.png",
+      imgSrc: "/partners/media/w3w.png",
       title: "bl",
-      weblink: "#",
+      weblink: "https://t.me/Web3WomenSummit",
     },
     { 
       id: 3,
