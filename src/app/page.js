@@ -13,6 +13,7 @@ import Sponsors from "./components/Sponsors";
 import About from "./components/About";
 import Venue from "./components/Venue";
 import Openparty from "./components/Openparty";
+import Livevideo from "./components/Livevideo";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero/>
       {/* <Countdown/> */}
       <ShiftingCountdown/>
+      {/* <Livevideo/> */}
       <About/>
       <VerticalAccordion/>
       <Venue/>
