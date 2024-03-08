@@ -21,8 +21,8 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       {/* <Countdown/> */}
-      <ShiftingCountdown/>
-      {/* <Livevideo/> */}
+      {/* <ShiftingCountdown/> */}
+      <Livevideo/>
       <About/>
       <VerticalAccordion/>
       <Venue/>

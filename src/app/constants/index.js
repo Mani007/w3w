@@ -271,7 +271,7 @@ export const navLinks = [
       id: 1,
       imgSrc: "/partners/media/casa.png",
       title: "Casa",
-      weblink: "#",
+      weblink: "https://www.instagram.com/casadepedra_lx/",
     },
     { 
       id: 2,
@@ -283,19 +283,19 @@ export const navLinks = [
       id: 3,
       imgSrc: "/partners/media/vino.png",
       title: "vino",
-      weblink: "#",
+      weblink: "https://vinovero.wine/",
     },
     { 
       id: 4,
-      imgSrc: "/partners/media/savg.png",
-      title: "savg",
-      weblink: "#",
+      imgSrc: "/partners/media/ivendpay.png",
+      title: "ivendpay",
+      weblink: "https://ivendpay.com/",
     },
     { 
       id: 5,
       imgSrc: "/partners/media/eco.png",
       title: "MetaMixer",
-      weblink: "#",
+      weblink: "https://metamixer.pl/",
     },
     { 
       id: 7,
