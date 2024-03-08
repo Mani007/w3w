@@ -126,7 +126,7 @@ export const navLinks = [
     },
     {
       id: 7,
-      name: "ATHINA STANTZOS",
+      name: "Athina Stantzos",
       imgSrc:"/speakers/ATHINA STANTZOS.png",
       company: "SettleMint",
       jobtitle: "Senior Technical Engineer",
@@ -219,6 +219,22 @@ export const navLinks = [
       company: "Audytas",
       jobtitle: "CMO/Co-Founder",
       social: "https://www.linkedin.com/in/balmaguer/"
+    },
+    {
+      id: 19,
+      name: "Diana King",
+      imgSrc:"/speakers/dina.jpg",
+      company: "Q Protocol",
+      jobtitle: " Core Contributor ",
+      social: "https://www.linkedin.com/in/diana-king-pr/"
+    },
+    {
+      id: 20,
+      name: "Mina Vucinic",
+      imgSrc:"/speakers/mina.jpg",
+      company: "Vibe2Earn",
+      jobtitle: "Founder & CEO",
+      social: "https://www.linkedin.com/in/minavucinic/"
     },
   ]; 
 
@@ -371,9 +387,9 @@ export const navLinks = [
     },
     { 
       id: 2,
-      imgSrc: "/partners/media/w3w.png",
+      imgSrc: "/partners/media/poolside.png",
       title: "bl",
-      weblink: "https://t.me/Web3WomenSummit",
+      weblink: "https://www.poolside.co/hub",
     },
     { 
       id: 3,
