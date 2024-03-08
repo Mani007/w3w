@@ -36,7 +36,17 @@ export const navLinks = [
     {
       id: 1,
       title: "Day 1 - 8 March 2024",
-      plan: [  "4pm - Grand opening and welcome drink", "Join the Web3 Women Summit with a warm welcome and refreshing drinks", "6pm to 10pm - The Web3 Women Summit - Day 1","Explore new ideas, share experiences, and learn from our speakers. You will have a chance to meet an AI meditation guide - Calmila AI.","10pm-2pm Party at Casa de Pedra – Brazilian music",],
+      plan: [  
+        "4pm Opening and welcome drink",
+
+        "4:30pm - 6pm Networking",
+        
+        "6pm 1st panel (45 min) - Lawyer Topic - Marina Markezic/Inês Bragança", 
+        
+        "8pm 2nd panel (45 min) - Lumily Labz - Metaverse & Gaming - Julia Muszynski/Kristina Hayhoe/Antsa Rakotoniaina",  
+        
+        "10 pm Band starts – Brazilian music", 
+      ],
       //Icon: FiDollarSign,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
@@ -46,7 +56,29 @@ export const navLinks = [
     {
       id: 2,
       title: "Day 2 - 9 March 2024",
-      plan: [ "10am-opening","11:30am-12:30pm Keynote-Susana REFI", "12:30-1pm Networking","1pm–2pm Lunch break","2:30-3pm Keynote-Topic: Web3 & Mental Health-Natacha Cottu", "3:30pm -4:30pm Keynote-Prompt your Mind with Calmila (AI Video Streaming)-Anil Altas Brug", "5pm - 6pm - Marketing panel - Vera Voron,Nicole Carvalho,Ipshita Kumar,Mariana Suchodolski ", ],
+      plan: [ 
+        "10:30am Opening",
+
+        "11:30am -12:30pm Panel & Keynote - Susana REFI/Vera Lúcia Araújo/Maria Santamaria",  
+
+        "12:30 - 1pm Networking",
+
+        "1pm – 2pm Lunch break",
+
+        "2:30 - 3pm Keynote-Topic: Web3 & Mental Health-Natacha Cottu", 
+
+        "3:30pm - 4:00pm Keynote-Topic: Prompt your Mind with Calmila (AI Video Streaming)-Anil Altas Brug",  
+
+        "4:15pm - 5pm Diana King Keynote-Topic Understanding Web3: Challenges, Governance, and the Future Landscape", 
+
+        "5pm - 6pm - Marketing panel-Nicole Carvalho/Ipshita Kumar/Mariana Suchodolski",  
+
+        "6pm - 7pm Networking and food",
+
+        "8pm DJ - Secret Location",
+
+
+       ],
       //Icon: FiPlay,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
@@ -56,7 +88,15 @@ export const navLinks = [
     {
       id: 3,
       title: "Day 3 - 10 March 2024",
-      plan: [ "12-1pm Brunch","1pm-2pm-CMO/CEO Panel-Alice Shikova,Blanca Almaguer,Alexa Sasha Topic: Women in leadership position","2:30pm-3:30pm Keynote-Topic: Stop Hustling 3 Secrets To Create Success & Lead yourself Powerfully in 2024 online with Judith Juhnke" ],
+      plan: [ 
+        "12 - 1pm Brunch",
+
+        "1pm - 2pm -CMO/CEO Panel - Alice Shikova/Blanca Almaguer/Alexa Sasha/Lena Topic: Women in leadership position",
+
+        "2:30pm - 3:30pm Keynote - Topic: Stop Hustling 3 Secrets To Create Success & Lead yourself Powerfully in 2024 online with Judith Juhnke", 
+        "4pm - 6pm - Call for Artists",
+-       "6pm Ceremony closing",
+       ],
       //Icon: FiBell,
       // imgSrc:
       //   "https://images.unsplash.com/photo-1578450671530-5b6a7c9f32a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",

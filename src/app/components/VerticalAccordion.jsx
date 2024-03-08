@@ -79,9 +79,9 @@ const Panel = ({ open, setOpen, id, plan, Icon, title, imgSrc, description }) =>
               initial="closed"
               animate="open"
               exit="closed"
-              className="px-4 py-2 w-full text-md lg:text-xl text-start bg-[#FADCD9] backdrop-blur-sm text-white "
+              className="px-4 py-2 w-full text-md lg:text-xl text-start bg-[#FADCD9] backdrop-blur-sm text-white  "
               >
-              <div className='overflow-hidden space-y-2'>
+              <div className='overflow-hidden text-sm space-y-0.5'>
               {plan.map(
                 (i,index)=>{
                   return (
