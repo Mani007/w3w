@@ -95,7 +95,7 @@ export const navLinks = [
 
         "2:30pm - 3:30pm Keynote - Topic: Stop Hustling 3 Secrets To Create Success & Lead yourself Powerfully in 2024 online with Judith Juhnke", 
         "4pm - 6pm - Call for Artists",
--       "6pm Ceremony closing",
+        "6pm - Ceremony closing",
        ],
       //Icon: FiBell,
       // imgSrc:
